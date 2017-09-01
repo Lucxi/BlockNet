@@ -1,0 +1,75 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	overflow-x: hidden;
+	background-color: #cccccc;
+}
+
+/* ========== Block design ========== */
+#blockDesign{
+	background-color: #252525;
+	min-height: 400px;
+	height: 40%;
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+	.block{
+		width: 250px;
+		height: 250px;
+		margin: 25px;
+		background-color: #aaaaaa;
+	}
+	.block:hover{
+		background-color: #808080;
+	}
+		#blockDesign_block_textarea{
+			height: 95%;
+		  	width: 95%;
+			resize: none;
+			background: none;
+			border: none;
+			font-size: 20pt;
+			outline: none;
+			overflow: hidden;
+		}
+
+#content{
+	flex-wrap: nowrap;
+	flex-direction: column;
+
+	display: flex;
+	justify-content: flex-start;
+}
+	#triangle{
+		margin: 0 auto;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 80px 75px 0 75px;
+		border-color: #252525 transparent transparent transparent;
+	}
+#content_blockColor{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+    margin: 0 auto;
+    outline: none;
+}
+
+#btnBlock{
+	margin: 0 auto;
+	height: 80px;
+    width: 80px;
+    background: none;
+    border: solid 2px #252525;
+}
+#btnBlock:hover{
+	background-color: #808080;
+}
+
+/* ========== block ========== */
+		

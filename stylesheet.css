@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	overflow-x: hidden;
+	background-color: #cccccc;
+}
+.section{
+	width: 100vw;
+}
+
+/* ========== header ========== */
+#header{
+	height: 100vh;
+    color: #ffffff;
+	background-color: #252525;
+}
+	#btn-new{
+		height: 50px;
+		width: 50px;
+		background: none;
+		border: solid 2px #cccccc;
+		color: #cccccc;
+	}
+	#btn-new:hover{
+		border-color: #808080;
+	}
+
+/* ========== unimatrix ========== */
+	#unimatrix{
+		display: flex;
+        padding: 15px;
+		min-height: 100vh;
+		
+		color: #000000;
+		background-color: #cccccc;
+		
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+    #unimatrix a{
+        text-decoration: none;
+    }
+
+/* ========== block ========== */
+    
+        .block{
+			width: 250px;
+			height: 250px;
+			margin: 10px;
+			background-color: #aaaaaa;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.block:hover{
+			background-color: #808080;
+		}
+            .block h2{
+                height: 100%;
+                word-wrap: break-word;
+                mix-blend-mode: difference;
+                color: #ffffff;
+            }
+
+/* ========== footer ========== */
+#footer{
+	//height: 250px;
+	//width: 100vw;
+	//background-color: #252525;
+}
